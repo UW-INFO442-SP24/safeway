@@ -21,9 +21,7 @@ Filters: The filter function will be used to filter out events by neighborhood, 
 * Create an Event Button: Users will be able to add new events to invite others to join in on their walk to or from school.
 * Join Button: Integrated into each Event Box for user registration. The number of spots left will decrease by 1 whenever the join button is clicked.
 Number of Spots Left: The number of spots left will decrease by 1 every time the join button is clicked.
-<<<<<<< HEAD
 * Color Changing Feature: A visual indicator on the Events Page that changes color based on the number of spots left in an event. It will become red to indicate that there are no spots left.
-=======
 * Color Changing Feature: A visual indicator on the Events Page that changes color based on the number of spots left in an event. It will become red to indicate that there are no spots left.
 
 
