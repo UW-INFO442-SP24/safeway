@@ -14,8 +14,8 @@ The SDG that we will be focusing on is Sustainable Cities and Communities. Accor
 Our solution is a website catered to the parents of elementary school aged students in Seattle. Due to safety concerns, parents may not feel comfortable allowing their younger children to walk to/from school alone. Our website will offer parents who may not have the capacity to walk their students to/from school every day the opportunity to find other parents who are willing to walk a group of students to/from school. Through our solution, we hope to create a safe and sustainable commuting community for elementary school aged students.
 
 # User Personas
-![Persona - Sarah](https://github.com/UW-INFO442-SP24/safeway/assets/114948243/8443ce8f-1cf4-4699-bf64-4c6d7c88acfa)
-![Persona - Jack](https://github.com/UW-INFO442-SP24/safeway/assets/114948243/1c2ac7a5-9fc1-40ce-9265-7afbb4b45be2)
+![Persona -]<img width="550" alt="截屏2024-05-01 13 42 00" src="https://github.com/UW-INFO442-SP24/safeway/assets/91623362/cb99f646-8df7-4666-9bfe-2dd257bda5d2">
+
 
 # Key Features
 * Event Page: Our event page will include a search bar, boxes for each event, filters, a create an event button, a join button, and a color-changing feature based on how many spots are left in each event.
