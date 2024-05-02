@@ -7,16 +7,14 @@ Some of our key features include:
 * Event Page: Our event page will include a search bar, boxes for each event, filters, a create an event button, a join button, and a color-changing feature based on how many spots are left in each event. We will be using HTML, CSS, and React in JavaScript on this page.
 
 # Background Information
-
 The SDG that we will be focusing on is Sustainable Cities and Communities. According to the UN website, this SDG focuses on how to make cities “inclusive, safe, resilient and sustainable.” The website suggests that we form a vision for our buildings, neighborhoods, and cities and then proceed to act upon that vision. The idea of making cities safer relates to our project idea, in which we will be focusing on prioritizing the safety of children, especially younger children whose safety may be at risk as they commute to school. Therefore, our guiding question is: ***"How might we improve the safety of children commuting to and from school in Seattle?"***
 
 # About Our Solution
 Our solution is a website catered to the parents of elementary school aged students in Seattle. Due to safety concerns, parents may not feel comfortable allowing their younger children to walk to/from school alone. Our website will offer parents who may not have the capacity to walk their students to/from school every day the opportunity to find other parents who are willing to walk a group of students to/from school. Through our solution, we hope to create a safe and sustainable commuting community for elementary school aged students.
 
 # User Personas
-![Persona - Sarah](https://github.com/UW-INFO442-SP24/safeway/assets/91623362/fc5f2b33-cef5-49ee-8c17-7be14f677627)
-![Persona - Jack](https://github.com/UW-INFO442-SP24/safeway/assets/91623362/3537e471-9b8d-4098-9fc5-0aec4d41e9d5)
-
+![Persona - Sarah](https://github.com/UW-INFO442-SP24/safeway/assets/114948243/ad93c0c2-aa73-4aab-86b2-bcd32bb5eb01)
+![Persona - Jack](https://github.com/UW-INFO442-SP24/safeway/assets/114948243/b754edd0-4bff-4727-a8c2-4c7d3df24490)
 
 # Key Features
 * Event Page: Our event page will include a search bar, boxes for each event, filters, a create an event button, a join button, and a color-changing feature based on how many spots are left in each event.
@@ -29,4 +27,9 @@ Number of Spots Left: The number of spots left will decrease by 1 every time the
 * Color Changing Feature: A visual indicator on the Events Page that changes color based on the number of spots left in an event. It will become red to indicate that there are no spots left.
 * Color Changing Feature: A visual indicator on the Events Page that changes color based on the number of spots left in an event. It will become red to indicate that there are no spots left.
 
-
+# Group Members
+* Dorothy Clement
+* Vicky Huang
+* Chloe Song
+* Dexin Sun
+* Steven Yang
