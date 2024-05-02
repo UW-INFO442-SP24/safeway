@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const YouTubeEmbed = ({ link }) => {
-  // Extract video ID from the link
+  // Extract video ID from the youtube link
   const videoId = link.split('/').pop().split('?').shift();
 
   return (
