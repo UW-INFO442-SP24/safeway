@@ -26,16 +26,14 @@ function Resource() {
         <YouTubeEmbed link={youtubeLink} />
       </div>
 
-      {/* Apartment Cards */}
+      {/* Mission Cards */}
       <div className="safeway-mission">
         <h1>SafeWay is founded upon Community, Safety, and Sustainability</h1>
       </div>
       <div className="container">
-        <div className="row">
           {cardData.map((card, index) => (
             <Card key={index} imagePath={card.imagePath} title={card.title} explanation={card.explanation} />
           ))}
-        </div>
       </div>
 
       {/* Ratings Section */}

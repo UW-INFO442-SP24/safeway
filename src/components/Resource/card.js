@@ -6,8 +6,8 @@ function Card({ imagePath, title, explanation }) {
       <div className="card mb-4">
         <div className="card-body">
           <div className="row">
-            <div className="col-sm-auto col-xl-12">
-              <img className="col-sm-auto col-xl-12" src={imagePath} alt={title} />
+            <div className="image">
+              <img className="col-sm-auto col-xl-12" src={imagePath} alt={title}/>
             </div>
             <div className="col-sm">
               <h2 className="card-title col-sm">{title}</h2>
