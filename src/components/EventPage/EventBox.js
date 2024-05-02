@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
-const EventBox = ({ onSave }) => {
+const EventBox = ({ events, filters, onSave }) => {
+
     const [title, setTitle] = useState('');
     const [date, setDate] = useState('');
     const [time, setTime] = useState('');
@@ -56,4 +57,10 @@ const EventBox = ({ onSave }) => {
 };
 
 export default EventBox;
+
+
+
+
+
+
 

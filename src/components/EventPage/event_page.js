@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import EventBox from './EventBox';
+import Filter from './filter';
 
 const EventPage = () => {
+    const [filters, setFilters] = useState({});
+
     const handleSaveEvent = (eventDetails) => {
-        // Handle the event details here, e.g., saving them to a database or local state
         console.log('Event Created:', eventDetails);
     };
 
     return (
         <div>
             <h1>Create Event</h1>
-            <EventBox onSave={handleSaveEvent} />
+            <Filter onFilterChange={setFilters} />
+            <EventBox filters={filters} onSave={handleSaveEvent} />
         </div>
     );
 };
