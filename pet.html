@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condesa - Interior Design Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- Google Font similar to the one in the image -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo" id="logoSelf">SafeWay</div>
+            <ul class="nav-links" id="logo-text">
+                <li><a href="#services">Home</a></li>
+                <li><a href="#work">Events</a></li>
+
+            </ul>
+            <div class="auth">
+                <a href="#login" id="login_button">Login</a>
+                <button class="signup-button">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="main1">
+            <h1 class="title">SafeWay</h1>
+            <p>Give your kids a safe way home.  </p>
+        </section>
+
+        <section class="services-section hidden animate__animated">
+            <h2>Our  Schools </h2>
+            <div class="services-container">
+                <div class="service-item">
+                    <img src="img/img1.jpg" alt="SliverDale ELEMENTRY SCHOOL" width="300" height="300">
+                    <!-- <h3>Community Based</h3> -->
+                    <h3>SlIVERDALE ELEMENTRY SCHOOL</h3>
+                    <!-- <button class="service-button">EXPLORE</button> -->
+                </div>
+                <div class="service-item">
+                    <img src="img/img2.jpg" alt="WEST HILLS ELEMENTRY SCHOOL" width="300" height="300">
+                    <!-- <h3></h3> -->
+                    <h3>WEST HILLS ELEMENTRY SCHOOL</h3>
+                    <!-- <button class="service-button">EXPLORE</button> -->
+                </div>
+                <div class="service-item">
+                    <img src="img/img3.jpg" alt="UNION HILLS ELEMENTRY SCHOOL" width="300" height="300">
+                    <!-- <h3>Custom Additions</h3> -->
+                    <h3>UNION HILLS ELEMENTRY SCHOOL</h3>
+                    <!-- <button class="service-button">EXPLORE</button> -->
+                </div>
+                <div class="service-item">
+                    <img src="img/img4.jpg" alt="UNION HILLS ELEMENTRY SCHOOL" width="300" height="300">
+                    <!-- <h3>Green Building</h3> -->
+                    <h3>BEACON HILLS ELEMENTRY SCHOOL</h3>
+                    <!-- <button class="service-button">EXPLORE</button> -->
+                </div>
+            </div>
+        </section>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </main>
+    <footer class="footer-content hidden animate__animated">
+        <div class="container">
+            <div class="column">
+                <h2>Menu</h2>
+                <a href="#services">Home</a>
+                <a href="#work">Events</a>
+
+            </div>
+            <div class="column">
+                <h2>Social</h2>
+                <a href="https://instagram.com">Instagram</a>
+                <a href="https://facebook.com">Facebook</a>
+            </div>
+            <div class="column contact-form">
+                <h2>Let's stay connected</h2>
+                <p>Reach out about a project, collaboration or just to say hello!</p>
+                <form action="#" method="POST">
+                    <input type="email" id="email" name="email" placeholder="Email *">
+                    <textarea id="message" name="message" placeholder="Message *"></textarea>
+                    <button type="submit">Send Away</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
