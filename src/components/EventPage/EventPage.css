@@ -13,7 +13,7 @@
 }
 
 .join-button {
-    background-color: #4CAF50;
+    background-color: lightblue;
     /* Green */
     border: none;
     color: white;
@@ -28,7 +28,7 @@
 }
 
 .join-button:hover {
-    background-color: #45a049;
+    background-color: blue;
 }
 
 .event-details {
