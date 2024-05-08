@@ -90,3 +90,184 @@ img {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+/* Style for the HomePage */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background: #FFF1E0; 
+    color: #333; 
+}
+
+h1 {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideFadeIn 1s ease-in-out forwards;
+}
+
+@keyframes slideFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem 5%;
+    background: transparent;
+    font-size: 1.2rem;
+}
+
+.logo, .nav-links a, .auth a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links, .auth {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+}
+
+.nav-links li, .auth div {
+    margin-left: 2rem;
+}
+
+.nav-links a:hover, .auth a:hover {
+    color: #5DADE2; 
+}
+
+.main1 {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.title {
+    color: #5DADE2; 
+    font-size: 5rem; 
+    margin: 0;
+}
+
+.main1 p {
+    color: #555; 
+    font-size: 2.5rem; 
+    max-width: 70%; 
+    padding-top: 3rem;
+    margin: 1rem auto; 
+}
+
+.services-section {
+    padding: 2rem 0;
+}
+
+.services-section h2 {
+    text-align: center;
+    color: #5DADE2;
+    font-size: 5rem;
+}
+
+.services-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    padding: 1rem; 
+}
+
+.service-item {
+    width: 25%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    margin-bottom: 2rem;
+}
+  
+.service-item img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.service-item button {
+    background-color: #5DADE2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.footer-content {
+    background: #5DADE2; 
+    color: white; 
+    padding: 2rem; 
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.footer-container {
+    max-width: 1200px; 
+    margin: auto; 
+    display: flex;
+    justify-content: space-between; 
+}
+
+.column {
+    flex: 1; 
+    margin: 1rem; 
+}
+
+.contact-form {
+    flex-basis: 100%; 
+}
+
+.column h2 {
+    margin-bottom: 1rem; 
+}
+
+.column a {
+    display: block; 
+    margin-bottom: 0.5rem; 
+    color: white; 
+    text-decoration: none; 
+}
+
+.column a:hover {
+    text-decoration: underline; 
+}
+
+input[type="email"], textarea {
+    width: 100%; 
+    padding: 1rem; 
+    margin: 0.5rem 0; 
+    border: none; 
+    border-radius: 10px;
+}
+
+textarea {
+    height: 150px; 
+    resize: vertical; 
+}
+
+button {
+    background-color: #333; 
+    color: white; 
+    padding: 1rem 2rem; 
+    border: none; 
+    cursor: pointer; 
+    margin-top: 1rem; 
+}
+
+
