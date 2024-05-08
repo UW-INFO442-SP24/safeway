@@ -1,0 +1,38 @@
+.event-card {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.event-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.join-button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.join-button:hover {
+    background-color: #45a049;
+}
+
+.event-details {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
