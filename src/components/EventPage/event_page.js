@@ -7,13 +7,17 @@ const EventPage = () => {
             title: 'Group Walk to school',
             date: '2024-04-02',
             location: 'Westlake Elementary School',
-            description: 'Join us for a group walk to school. Meet at the park at 9:30am.'
+            description: 'Join us for a group walk to school. Meet at the park at 9:30am.',
+            attendees: 10,
+            schoolType: 'Elementary'
         },
         {
             title: 'Group Walk to school',
             date: '2024-04-03',
             location: 'Westlake Elementary School',
-            description: 'Join us for a group walk to school. Meet at the park at 8:30am.'
+            description: 'Join us for a group walk to school. Meet at the park at 8:30am.',
+            attendees: 15,
+            schoolType: 'Elementary'
         }
     ];
 
@@ -30,6 +34,8 @@ const EventPage = () => {
                     <p className="event-details">Date: {event.date}</p>
                     <p className="event-details">Location: {event.location}</p>
                     <p className="event-details">Description: {event.description}</p>
+                    <p className="event-details">Attendees: {event.attendees}</p>
+                    <p className="event-details">School Type: {event.schoolType}</p>
                     <button className="join-button" onClick={() => handleJoinEvent(event)}>Join Event</button>
                 </div>
             ))}
