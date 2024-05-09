@@ -92,7 +92,7 @@ img {
 }
 
 /* Style for the HomePage */
-body, html {
+body {
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
@@ -119,11 +119,11 @@ h1 {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: baseline;
     padding: 1rem 5%;
     background: transparent;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
 }
 
 .logo, .nav-links a, .auth a {
@@ -139,7 +139,7 @@ h1 {
 }
 
 .nav-links li, .auth div {
-    margin-left: 2rem;
+    margin-left: 6rem;
 }
 
 .nav-links a:hover, .auth a:hover {
