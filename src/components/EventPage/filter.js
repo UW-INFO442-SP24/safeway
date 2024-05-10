@@ -1,34 +1,31 @@
 import React, { useState } from 'react';
 
-const Filter = ({ onFilterChange }) => {
+const Filter = ({ onFilterChange, schools }) => {
     const [date, setDate] = useState('');
-    const [time, setTime] = useState('');
-    const [location, setLocation] = useState('');
+    const [school, setSchool] = useState('');
     const [maxChildren, setMaxChildren] = useState('');
 
     const handleFilterChange = () => {
-        onFilterChange({ date, time, location, maxChildren });
+        onFilterChange({ date, school, maxChildren });
     };
 
     return (
         <div>
-            <h3>Search</h3>
+            <h3>Filter Events</h3>
             <input
                 type="date"
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
             />
-            <input
-                type="time"
-                value={time}
-                onChange={(e) => setTime(e.target.value)}
-            />
-            <input
-                type="text"
-                placeholder="Location"
-                value={location}
-                onChange={(e) => setLocation(e.target.value)}
-            />
+            <select
+                value={school}
+                onChange={(e) => setSchool(e.target.value)}
+            >
+                <option value="">Select School</option>
+                {schools.map((school, index) => (
+                    <option key={index} value={school}>{school}</option>
+                ))}
+            </select>
             <input
                 type="number"
                 placeholder="Max Children"
