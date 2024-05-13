@@ -22,10 +22,8 @@ Our solution is a website catered to the parents of elementary school aged stude
 * Event Box: The event box will include information about each event including location, how many spots are left, and the join button. We will specifically be using CSS to create flexboxes for our events.
 Filters: The filter function will be used to filter out events by neighborhood, school, and the number of spots left. 
 * Create an Event Button: Users will be able to add new events to invite others to join in on their walk to or from school.
-* Join Button: Integrated into each Event Box for user registration. The number of spots left will decrease by 1 whenever the join button is clicked.
+* Join Button: Integrated into each Event Box for user registration. The number of spots filled will increase by 1 whenever the join button is clicked.
 Number of Spots Left: The number of spots left will decrease by 1 every time the join button is clicked.
-* Color Changing Feature: A visual indicator on the Events Page that changes color based on the number of spots left in an event. It will become red to indicate that there are no spots left.
-* Color Changing Feature: A visual indicator on the Events Page that changes color based on the number of spots left in an event. It will become red to indicate that there are no spots left.
 
 # Group Members
 * Dorothy Clement
