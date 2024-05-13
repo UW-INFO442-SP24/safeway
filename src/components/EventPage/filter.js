@@ -8,8 +8,7 @@ const Filter = ({ onFilterChange, schools }) => {
     };
 
     return (
-        <div>
-            <h3>Filter Events</h3>
+        <div className="filter-container">
             <select
                 value={school}
                 onChange={(e) => setSchool(e.target.value)}

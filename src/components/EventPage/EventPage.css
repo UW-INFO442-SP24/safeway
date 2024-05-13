@@ -1,3 +1,15 @@
+.eventpage-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.eventpage-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
 .event-card {
     border: 1px solid #ccc;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -39,4 +51,44 @@
 .status-full {
     color: lightpink;
     font-weight: bold;
+}
+
+.filter-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.filter-container h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.filter-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.filter-container button {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.filter-container button:hover {
+    background-color: blue;
 }
