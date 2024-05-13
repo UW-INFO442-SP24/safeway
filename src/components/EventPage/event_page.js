@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './EventPage.css'; 
 import Filter from './filter';
-import './index.css'; 
+
 
 const EventPage = () => {
     const schools = ['SILVERDALE ELEMENTARY SCHOOL', 'WEST HILLS ELEMENTARY SCHOOL', 'UNION HILLS ELEMENTARY SCHOOL', 'BEACON HILLS ELEMENTARY SCHOOL'];

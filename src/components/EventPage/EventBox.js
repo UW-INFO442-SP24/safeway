@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './index.css';  
 
 const EventBox = ({ events }) => {
     const [attendees, setAttendees] = useState(Array(events.length).fill(0));
