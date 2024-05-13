@@ -31,11 +31,12 @@ const EventPage = () => {
 
 
     const filteredEvents = events.filter(event => {
-        if (dateFilter && event.date !== dateFilter) return false;
+        if (dateFilter && new Date(event.date) !== new Date(dateFilter)) return false;
         if (schoolFilter && event.location !== schoolFilter) return false;
         if (maxChildrenFilter && event.maxChildren >= parseInt(maxChildrenFilter)) return false;
         return true;
     });
+    
 
     const handleJoinEvent = (index) => {
         const newEvents = [...events];
@@ -52,7 +53,7 @@ const EventPage = () => {
 
             <Filter onFilterChange={handleFilterChange} schools={schools} />
 
- 
+
             {filteredEvents.map((event, index) => (
                 <div className="event-card" key={index}>
                     <h2 className="event-title">{event.title}</h2>

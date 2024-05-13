@@ -15,19 +15,19 @@ function HomePage() {
           <div className="services-container">
             <div className="service-item">
               <img src="img/silverdale.jpg" alt="SliverDale Elmentary School" width="300" height="300" />
-              <h3>SliverDale Elmentary School</h3>
+              <h3>Sliverdale Elementary School</h3>
             </div>
             <div className="service-item">
               <img src="img/beaconhill.jpg" alt="Beacon Hill Elmentary School" width="300" height="300" />
-              <h3>Beacon Hill Elmentary School</h3>
+              <h3>Beacon Hill Elementary School</h3>
             </div>
             <div className="service-item">
               <img src="img/westhills.jpg" alt="West Hills Elmentary School" width="300" height="300" />
-              <h3>West Hills Elmentary School</h3>
+              <h3>West Hills Elementary School</h3>
             </div>
             <div className="service-item">
               <img src="img/unionhill.jpg" alt="Union Hill Elmentary School" width="300" height="300" />
-              <h3>Union Hill Elmentary School</h3>
+              <h3>Union Hill Elementary School</h3>
             </div>
           </div>
         </section>
