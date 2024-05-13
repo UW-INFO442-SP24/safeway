@@ -55,7 +55,7 @@ const EventPage = () => {
             <Filter onFilterChange={handleFilterChange} schools={schools} />
 
 
-            {filteredEvents.map((event, index) => (
+            <div id= "event-flexbox">{filteredEvents.map((event, index) => (
                 <div className="event-card" key={index}>
                     <h2 className="event-title">{event.title}</h2>
                     <p className="event-details">Date: {event.date}</p>
@@ -68,7 +68,7 @@ const EventPage = () => {
                     <button className="join-button" onClick={() => handleJoinEvent(index)}>Join Event</button>
                     {event.attendees >= event.maxChildren && <span className="status-full">Full</span>}
                 </div>
-            ))}
+            ))}</div>
         </div>
     );
 };

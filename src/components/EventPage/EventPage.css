@@ -16,7 +16,14 @@
     padding: 20px;
     margin-bottom: 20px;
     background-color: #f9f9f9;
-    max-width: 45%;
+    max-width: 100%; 
+}
+
+#event-flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .event-title {
