@@ -25,7 +25,7 @@ const EventPage = () => {
 
     const handleFilterChange = (filterParams) => {
         setDateFilter(filterParams.date);
-        setSchoolFilter(filterParams.location);
+        setSchoolFilter(filterParams.school);
         setMaxChildrenFilter(filterParams.maxChildren);
     };
 
