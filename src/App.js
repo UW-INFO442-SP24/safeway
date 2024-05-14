@@ -1,18 +1,3 @@
-//Vicky
-// import React from 'react';
-// import Resource from './components/Resource/resource'; 
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Resource /> 
-//     </div>
-//   );
-// }
-
-// export default App;
-
-//Steven
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Header, Footer } from './components/HeaderFooter/headerfooter';

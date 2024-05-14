@@ -156,6 +156,11 @@ h1 {
     margin: 0;
 }
 
+.main1 p:hover {
+  color: #5DADE2;
+  cursor: zoom-in; 
+}
+
 .main1 p {
     color: #555; 
     font-size: 2.5rem; 
@@ -175,19 +180,30 @@ h1 {
 }
 
 .services-container {
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: space-around; 
-    padding: 1rem; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 1rem;
+}
+  
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 300px;
+    height: 300px;
+    margin: 10px; 
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
-.service-item {
-    width: 25%;
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
-    margin-bottom: 2rem;
+.service-item.enlarged {
+  transform: scale(1.05); 
 }
   
 .service-item img {
@@ -196,6 +212,7 @@ h1 {
     object-fit: contain;
     overflow: hidden;
 }
+  
 
 .service-item button {
     background-color: #5DADE2;
