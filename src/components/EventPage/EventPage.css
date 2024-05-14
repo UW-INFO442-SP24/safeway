@@ -1,3 +1,4 @@
+/* Style for the event page 1*/
 .eventpage-container {
     padding: 20px;
     display: flex;
@@ -8,7 +9,6 @@
     margin-bottom: 20px;
     text-align: center;
 }
-
 
 .event-card {
     border: 1px solid #ccc;
@@ -100,7 +100,8 @@
 .filter-container button:hover {
     background-color: blue;
 }
-/* Style for the event page */
+
+/* Style for the event page 2*/
 .event-page {
     padding: 20px;
     display: flex;
@@ -156,4 +157,10 @@
 
 .event-box button:hover {
     background-color: #0056b3; 
+}
+
+#school-image {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
 }

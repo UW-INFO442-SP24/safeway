@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const EventBox = ({ events }) => {
-    const [attendees, setAttendees] = useState(Array(events.length).fill(0));
-
+const EventBox = ({ events, attendees, setAttendees }) => {
     const handleJoinEvent = (index) => {
         if (attendees[index] < events[index].maxChildren) {
             const newAttendees = [...attendees];
