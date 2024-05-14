@@ -158,7 +158,6 @@ h1 {
 
 .main1 p:hover {
   color: #5DADE2;
-  cursor: zoom-in; 
 }
 
 .main1 p {
@@ -204,6 +203,10 @@ h1 {
 
 .service-item.enlarged {
   transform: scale(1.05); 
+}
+
+.service-item:hover {
+    cursor: zoom-in; 
 }
   
 .service-item img {
