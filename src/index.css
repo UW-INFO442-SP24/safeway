@@ -268,3 +268,42 @@ button {
     cursor: pointer; 
     margin-top: 1rem; 
 }
+
+/* homepage responsive */
+@media screen and (max-width: 768px) {
+    .nav-links, .auth {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links li, .auth div {
+        margin: 0.5rem 0;
+    }
+
+    .signup-button {
+        margin-top: 0.5rem;
+    }
+
+    .main1 {
+        padding: 10% 5%;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .main1 p {
+        font-size: 1rem;
+    }
+
+    .service-item {
+        width: 49%; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .service-item {
+        width: 100%; 
+    }
+}
