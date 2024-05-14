@@ -14,7 +14,7 @@
 
 //Steven
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Header, Footer } from './components/HeaderFooter/headerfooter';
 import HomePage from './components/LandingPage/homepage';
 import EventPage from './components/EventPage/event_page';
