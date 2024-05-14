@@ -56,22 +56,21 @@ const EventPage = () => {
         return true;
     });
 
-const handleJoinEvent = (index) => {
-    // Create a copy of the events array to avoid mutating state directly
-    const newEvents = [...events];
+    const handleJoinEvent = (index) => {
+        const newEvents = [...events];
+        const originalIndex = events.findIndex((event) => event === filteredEvents[index]);
 
-    // Increase attendance for the clicked event card in the newEvents array
-    if (newEvents[index].attendees < newEvents[index].maxChildren) {
-        newEvents[index].attendees += 1;
-    }
+        if (newEvents[originalIndex].attendees < newEvents[originalIndex].maxChildren) {
+            newEvents[originalIndex].attendees += 1;
+        }
 
-    // Update the events state with the modified newEvents array
-    setEvents(newEvents);
-};
+        setEvents(newEvents);
+    };
+    
     
     return (
         <div className="eventpage-container">
-            <h1>Come Join Your School District!</h1>
+            <h1>Come Join a Group at Your School!</h1>
             
             <Filter onFilterChange={handleFilterChange} schools={schools} />
 

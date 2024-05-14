@@ -13,7 +13,7 @@ const Filter = ({ onFilterChange, schools }) => {
                 value={school}
                 onChange={(e) => setSchool(e.target.value)}
             >
-                <option value="">Select School</option>
+                <option value="">All Schools</option>
                 {schools.map((schoolName, index) => (
                     <option key={index} value={schoolName}>{schoolName}</option>
                 ))}
