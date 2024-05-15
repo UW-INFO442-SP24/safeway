@@ -25,7 +25,7 @@ function Resource() {
         <h1>Join us and explore how we practice walking at SafeWay🥳</h1>
         </div>
         <div className="headline-right">
-          <img src="img/SafeWay.jpg" alt="SafeWay Poster" />
+          <img src="img/SafeWayWalk.jpg" alt="SafeWay Poster" />
         </div>
       </div>
       {/* Resources page */}
