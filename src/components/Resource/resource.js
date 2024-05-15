@@ -21,8 +21,8 @@ function Resource() {
     <div>
       <div className="headline-content">
         <div className="headline-left">
-        <h1>At SafeWay, we're committed to make group walk accessible for all children.</h1>
-        <h1>Join us and explore how we practice walking at SafeWay🥳</h1>
+        <h1>At SafeWay, we're committed to make group walk accessible for all children.
+        <br/><br/>Join us and explore how we practice walking at SafeWay🥳</h1>
         </div>
         <div className="headline-right">
           <img src="img/SafeWayWalk.jpg" alt="SafeWay Poster" />
@@ -31,13 +31,17 @@ function Resource() {
       {/* Resources page */}
       <div className="resources-page">
         {/* Embed the YouTube video */}
+        <div className="video-caption">
+          <h2>Watch this video to learn walking tips</h2>
+        </div>
         <div className="video-container">
           <YouTubeEmbed link={youtubeLink} />
         </div>
+        <div></div>
 
         {/* Mission Cards */}
         <div className="safeway-mission">
-          <h1>SafeWay is founded upon Community, Safety, and Sustainability</h1>
+          <h2>SafeWay is founded upon Community, Safety, and Sustainability</h2>
         </div>
         <div className="container">
             {cardData.map((card, index) => (

@@ -39,19 +39,19 @@ function HomePage() {
           <h2>Our Schools</h2>
           <div className="services-container">
             <div className={`service-item ${isSilverdaleEnlarged ? 'enlarged' : ''}`} onClick={() => toggleEnlarged('Silverdale')}>
-              <img src="img/silverdale.jpg" alt="Silverdale Elementary School" width="300" height="300" />
+              <img src="img/silverdale.jpg" alt="Silverdale Elementary School Logo" width="300" height="300" />
               <h3>Silverdale Elementary School</h3>
             </div>
             <div className={`service-item ${isBeaconHillEnlarged ? 'enlarged' : ''}`} onClick={() => toggleEnlarged('Beacon Hill')}>
-              <img src="img/beaconhill.jpg" alt="Beacon Hill Elementary School" width="300" height="300" />
+              <img src="img/beaconhill.jpg" alt="Beacon Hill Elementary School Logo" width="300" height="300" />
               <h3>Beacon Hill Elementary School</h3>
             </div>
             <div className={`service-item ${isWestHillsEnlarged ? 'enlarged' : ''}`} onClick={() => toggleEnlarged('West Hills')}>
-              <img src="img/westhills.jpg" alt="West Hills Elementary School" width="300" height="300" />
+              <img src="img/westhills.jpg" alt="West Hills Elementary School Logo" width="300" height="300" />
               <h3>West Hills Elementary School</h3>
             </div>
             <div className={`service-item ${isUnionHillEnlarged ? 'enlarged' : ''}`} onClick={() => toggleEnlarged('Union Hill')}>
-              <img src="img/unionhill.jpg" alt="Union Hill Elementary School" width="300" height="300" />
+              <img src="img/unionhill.jpg" alt="Union Hill Elementary School Logo" width="300" height="300" />
               <h3>Union Hill Elementary School</h3>
             </div>
           </div>
