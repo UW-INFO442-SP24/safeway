@@ -1,6 +1,7 @@
 /* Style for the resources page */
 .resources-page {
-    padding: 20px;
+    padding: 80px;
+    text-align: center;
 }
   
 .safeway-mission {
@@ -89,6 +90,37 @@ img {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.headline-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    border-radius: 10px;
+}
+
+.headline-left {
+    flex: 1;
+    padding-right: 20px; 
+}
+
+.headline-left h2 {
+    font-family: 'Montserrat', sans-serif; 
+    color: #333; 
+}
+
+.headline-right {
+    flex: 1;
+}
+
+.headline-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
 
 /* Style for the HomePage */
 body {

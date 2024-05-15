@@ -2,7 +2,6 @@ import React from 'react';
 import YouTubeEmbed from './youtubemedia';
 import Card from './card'; 
 
-//include our media: the youtube video
 function Resource() {
   const youtubeLink = "https://youtu.be/BWR3DxGHLD4?si=Aa-uwtdtycl51zzA";
 
@@ -12,7 +11,6 @@ function Resource() {
     { imagePath: "/img/sustainability.png", title: "Sustainability", explanation: "Discover eco-friendly walking trails and initiatives that promote a greener environment for future generations." }
   ];
 
-//some random reviews for our app
   const ratings = [
     { name: 'Iced Coffee', rating: 5, comment: 'Great app, very easy to use! Recommend to all parents!' },
     { name: 'Jane Mastermind', rating: 5, comment: 'Excellent dashboard, I can easily find a group walk event for my kids!' },
@@ -20,33 +18,45 @@ function Resource() {
   ];
 
   return (
-    <div className="resources-page">
-      {/* Embed the YouTube video */}
-      <div className="video-container">
-        <YouTubeEmbed link={youtubeLink} />
+    <div>
+      <div className="headline-content">
+        <div className="headline-left">
+        <h1>At SafeWay, we're committed to make group walk accessible for all children.</h1>
+        <h1>Join us and explore how we practice walking at SafeWay🥳</h1>
+        </div>
+        <div className="headline-right">
+          <img src="img/SafeWay.jpg" alt="SafeWay Poster" />
+        </div>
       </div>
+      {/* Resources page */}
+      <div className="resources-page">
+        {/* Embed the YouTube video */}
+        <div className="video-container">
+          <YouTubeEmbed link={youtubeLink} />
+        </div>
 
-      {/* Mission Cards */}
-      <div className="safeway-mission">
-        <h1>SafeWay is founded upon Community, Safety, and Sustainability</h1>
-      </div>
-      <div className="container">
-          {cardData.map((card, index) => (
-            <Card key={index} imagePath={card.imagePath} title={card.title} explanation={card.explanation} />
-          ))}
-      </div>
+        {/* Mission Cards */}
+        <div className="safeway-mission">
+          <h1>SafeWay is founded upon Community, Safety, and Sustainability</h1>
+        </div>
+        <div className="container">
+            {cardData.map((card, index) => (
+              <Card key={index} imagePath={card.imagePath} title={card.title} explanation={card.explanation} />
+            ))}
+        </div>
 
-      {/* Ratings Section */}
-      <div className="ratings-section">
-        <h2>Ratings & Reviews</h2>
-        <div className="rating-container">
-          {ratings.map((rating, index) => (
-            <div key={index} className="rating-card">
-              <div><strong>{rating.name}</strong> rated this app {rating.rating} stars:</div>
-              <div className="rating-stars">{'★'.repeat(rating.rating)}</div>
-              <div className="rating-comment">{rating.comment}</div>
-            </div>
-          ))}
+        {/* Ratings Section */}
+        <div className="ratings-section">
+          <h2>Ratings & Reviews</h2>
+          <div className="rating-container">
+            {ratings.map((rating, index) => (
+              <div key={index} className="rating-card">
+                <div><strong>{rating.name}</strong> rated this app {rating.rating} stars:</div>
+                <div className="rating-stars">{'★'.repeat(rating.rating)}</div>
+                <div className="rating-comment">{rating.comment}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
