@@ -53,9 +53,9 @@ export function Footer() {
       <footer className="footer-content hidden animate__animated">
           <div className="footer-container">
               <div className="column">
-                  <h2>Menu</h2>
-                  <a href="#services">Home</a>
-                  <a href="#work">Events</a>
+                  <h2>More</h2>
+                  <a href="https://docs.google.com/presentation/d/1tPYC5uqRT2q-Ki1AczyEKbE9D83Hap0zqoaB4aTOPfU/edit?usp=sharing">Slides</a>
+                  <a href="https://github.com/UW-INFO442-SP24/safeway">GitHub</a>
               </div>
               <div className="column">
                   <h2>Social</h2>
