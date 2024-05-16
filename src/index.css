@@ -171,31 +171,41 @@ h1 {
 
 .navbar {
     display: flex;
-    justify-content: center;
-    align-items: baseline;
+    justify-content: space-between;
+    align-items: center; 
     padding: 1rem 5%;
-    background: transparent;
-    font-size: 1.35rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-.logo, .nav-links a, .auth a {
+.logo {
+    font-size: 1.75rem; 
+    font-weight: bold;
+    color: #5DADE2; 
+    text-decoration: none; 
+}
+
+.nav-links {
+    font-size: 1.25rem;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    transition: color 0.3s ease; 
 }
 
-.nav-links, .auth {
-    list-style: none;
-    display: flex;
-    align-items: baseline;
-}
-
-.nav-links li, .auth div {
-    margin-left: 6rem;
-}
-
-.nav-links a:hover, .auth a:hover {
+.nav-links a:hover {
     color: #5DADE2; 
+}
+
+.nav-links li {
+    margin-left: 5rem; 
 }
 
 .main1 {
