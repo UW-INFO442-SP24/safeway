@@ -22,7 +22,6 @@ Our solution is a website catered to the parents of elementary school-aged stude
 
 # Key Features
 * Event Page: Our event page will include a search bar, boxes for each event, filters, a create an event button, a join button, and a color-changing feature based on how many spots are left in each event.
-* Search Bar: The search bar will be used to look up a word and see if a term matches up with a key term for an event name. 
 * Event Box: The event box will include information about each event including location, how many spots are left, and the join button. We will specifically be using JS to create flexboxes for our events.
 Filters: The filter feature will be used to look up a school for efficiency. After filtering out events by school, the event box will display more details about the guardian, the number of spots left, contact information, etc. 
 * Join Button: Integrated into each Event Box for user registration. The number of spots filled will increase by 1 whenever the join button is clicked.
