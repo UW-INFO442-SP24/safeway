@@ -5,7 +5,7 @@ Sneak Peek of our pages:
 * Home Page: Our home page includes a short pitch of SafeWay, with our partnership schools on our platform. We seek to expand our school partnership network for the future of SafeWay.
 * Event Page: Our event page includes boxes for each event, filters for schools, a join button, and a message form.
 * Resource Page: Our resource pages encompass responsive YouTube media, mission cards with SafeWay core values, and added user reviews. 
-We will be using HTML, CSS, and JavaScript to draft, style, and structure our project.
+* We will be using HTML, CSS, and JavaScript to draft, style, and structure our project.
 
 # Background Information
 The SDG that we will be focusing on is Sustainable Cities and Communities. According to the UN website, this SDG focuses on how to make cities “inclusive, safe, resilient and sustainable.” The website suggests that we form a vision for our buildings, neighborhoods, and cities and then proceed to act upon that vision. The idea of making cities safer relates to our project idea, in which we will be focusing on prioritizing the safety of children, especially younger children whose safety may be at risk as they commute to school. 
